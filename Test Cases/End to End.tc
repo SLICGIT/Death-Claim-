@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>End to End</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>edc55bb8-6a5d-47cc-a508-f76763aa8f03</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>18dc03a0-f0e0-49a8-8b6e-93410e2a8d9c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DeathTestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>18dc03a0-f0e0-49a8-8b6e-93410e2a8d9c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Executor</value>
+      <variableId>c5c04a6e-98af-4149-8138-30314d747258</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>18dc03a0-f0e0-49a8-8b6e-93410e2a8d9c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>TestCaseID</value>
+      <variableId>92d32bf2-b34f-4b0f-9696-6948e18d8f07</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5c04a6e-98af-4149-8138-30314d747258</id>
+      <masked>false</masked>
+      <name>Executor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>92d32bf2-b34f-4b0f-9696-6948e18d8f07</id>
+      <masked>false</masked>
+      <name>TestCaseID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Scrutiny Option</name>
+   <tag></tag>
+   <elementGuidId>e0eef682-fcfc-4e1c-873d-ecf58fc58ee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='DynMenuBind']/li[3]/ul/li/a[text()='Scrutiny']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a361bf68-f0fb-4a5e-90a7-66196900953e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1773040358501</value>
+      <webElementGuid>a40ef7d9-18f7-4095-8ec2-73c1d048bf10</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

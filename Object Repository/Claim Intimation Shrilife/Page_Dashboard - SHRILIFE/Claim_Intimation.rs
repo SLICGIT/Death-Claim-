@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Claim_Intimation</name>
+   <tag></tag>
+   <elementGuidId>229e93f9-8b46-4c01-9a41-97cc7de3120b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='DynMenuBind']/li[3]/ul/li/a[text()='Claim Intimation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>4e68c297-2a21-4d9d-a3a5-434601cea166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1773034286174</value>
+      <webElementGuid>7d2161fb-46c8-4647-bc72-ed7f0485b5bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

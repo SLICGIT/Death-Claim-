@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Death_Claim_Batch_Process</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a480d8ef-6687-462e-8785-5c995d4aa0b5</testCaseGuid>
+</TestCaseEntity>

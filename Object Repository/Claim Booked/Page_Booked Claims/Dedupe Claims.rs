@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dedupe Claims</name>
+   <tag></tag>
+   <elementGuidId>f2e549de-284a-43f4-a99a-068410a4796c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subnavmaincls_4001</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='subnavmaincls_4001']/nav/a[text()='Dedupe Claims']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#subnavmaincls_4001</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>9c1e5d26-70b8-4bae-90f0-52aff38f8b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex subnavmaincls</value>
+      <webElementGuid>693ed718-2e3d-494c-b0fc-b6b2247b6110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>subnavmaincls_4001</value>
+      <webElementGuid>716964d8-45ee-4d8b-81bf-044d9ba8c602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Early ClaimsNon Early ClaimsLapsed ClaimsDedupe Claims</value>
+      <webElementGuid>5ba10620-3176-46ca-b980-5489f8a251de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subnavmaincls_4001&quot;)</value>
+      <webElementGuid>8c552f2b-d971-48be-b557-575e73ffe553</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//nav[@id='subnavmaincls_4001']</value>
+      <webElementGuid>46741294-2b65-4d09-936a-61885d88aa88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicsubtab']/nav</value>
+      <webElementGuid>d0efc71d-e31f-443f-9d1c-fe8b2288ddeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To Date'])[1]/following::nav[1]</value>
+      <webElementGuid>0aa8909f-68e7-4e39-9f73-a551a262c903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/following::nav[1]</value>
+      <webElementGuid>bbbf7475-b34d-44e0-ae0f-4b28b3d73393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/nav</value>
+      <webElementGuid>d6fdc481-21a0-453d-b537-8eb8e1f08c17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[@id = 'subnavmaincls_4001' and (text() = 'Early ClaimsNon Early ClaimsLapsed ClaimsDedupe Claims' or . = 'Early ClaimsNon Early ClaimsLapsed ClaimsDedupe Claims')]</value>
+      <webElementGuid>6128c6f0-d419-4b4d-9d05-d27cd02d8e8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

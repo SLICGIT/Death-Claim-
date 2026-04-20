@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Policy_details</name>
+   <tag></tag>
+   <elementGuidId>cf1a3762-d153-4088-868e-7e9f8cace271</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='grid-table']//div[@tabulator-field='PolicyNo' and contains(text(),'${policyNo}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>5f2b6fc5-65f3-42e5-9654-c886f2c53376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1773312242067</value>
+      <webElementGuid>1b5158df-01d2-459c-81ba-55c527eae4b5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

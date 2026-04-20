@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Death_Claim_Admission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e3e9ece-2592-45dd-a426-621e5ed1831b</testCaseGuid>
+</TestCaseEntity>
