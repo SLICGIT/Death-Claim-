@@ -120,6 +120,17 @@ WebUI.waitForPageLoad(GlobalVariable.G_PageTimeout)
 
 WebUI.delay(1)
 
+if(data['DeathCause'].toString().contains("Accident")) {
+	
+	WebUI.enhancedClick(findTestObject('Object Repository/Death Claim Processing/BasicDetailsTab'))
+	
+	WebUI.waitForPageLoad(GlobalVariable.G_PageTimeout)
+	
+	WebUI.delay(1)
+	
+}
+ 
+
 if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/AccidentRiderSA'),5 , FailureHandling.OPTIONAL)) {
 
 	GlobalVariable.G_AB_Rider_SA = WebUI.getAttribute(findTestObject('Object Repository/Death Claim Processing/AccidentRiderSA'), 'textContent').trim()

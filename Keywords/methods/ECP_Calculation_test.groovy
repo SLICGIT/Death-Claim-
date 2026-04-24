@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 import methods.FetchExcelData
 
-public class Calculation {
+public class ECP_Calculation_test {
 
 	@Keyword
 	static def verifyDataPoints() {
@@ -30,14 +30,11 @@ public class Calculation {
 		BigDecimal basicDeathClaim
 		BigDecimal netPayableAmount
 		BigDecimal totalPremPaid
-		BigDecimal abRiderPayable
-		BigDecimal fibRiderPayable
-		BigDecimal stepRiderPayable
 		int age
 
 		switch (true) {
 
-			case GlobalVariable.G_PlanName.toString().toUpperCase().contains("NEW SHRILIFE PLAN"):
+			case GlobalVariable.G_PlanName.toString().toUpperCase().contains("EARLY CASH PLAN"):
 
 				def baseSA = GlobalVariable.G_SumAssured.toString().replaceAll(",", "").toBigDecimal()
 				def tenTimesAP = GlobalVariable.G_Annualized_Premium.toString().replaceAll(",", "").toBigDecimal() * 10
@@ -51,24 +48,15 @@ public class Calculation {
 					basicDeathClaim = totalPremPaid
 				} else {
 					basicDeathClaim = (baseSA.compareTo(tenTimesAP) > 0) ? baseSA : tenTimesAP
-					abRiderPayable = GlobalVariable.G_AB_Rider_SA.toString().replaceAll(",", "").toBigDecimal()
-					fibRiderPayable = GlobalVariable.G_FIB_Rider_SA.toString().replaceAll(",", "").toBigDecimal() *1/100
-					stepRiderPayable = GlobalVariable.G_STEPUP_Rider_SA.toString().replaceAll(",", "").toBigDecimal()
 				}
 
 				netPayableAmount = basicDeathClaim + additions() - deductions()
 
 				WebUI.comment("Calculated Basic Death Claim : " + basicDeathClaim)
 				WebUI.comment("Calculated net payable amount : " + netPayableAmount)
-				WebUI.comment("Calculated AB rider amount : " + abRiderPayable)
-				WebUI.comment("Calculated FIB rider amount : " + fibRiderPayable)
-				WebUI.comment("Calculated Step-up rider amount : " + stepRiderPayable)
 
 				boolean verifyBasicClaim =  WebUI.verifyEqual(basicDeathClaim, GlobalVariable.G_Basic_Death_Claim, FailureHandling.OPTIONAL)
 				boolean verifyNetPayable =  WebUI.verifyEqual(netPayableAmount, GlobalVariable.G_Net_Payable_Amount, FailureHandling.OPTIONAL)
-				boolean verifyABRider =  WebUI.verifyEqual(abRiderPayable, GlobalVariable.G_AB_Rider_Amount, FailureHandling.OPTIONAL)
-				boolean verifyFIBRider =  WebUI.verifyEqual(fibRiderPayable, GlobalVariable.G_FIB_Rider_Amount, FailureHandling.OPTIONAL)
-				boolean verifyStepUpRider =  WebUI.verifyEqual(stepRiderPayable, GlobalVariable.G_StepUp_Rider_Amount, FailureHandling.OPTIONAL)
 
 				if(verifyBasicClaim && verifyNetPayable) {
 					GlobalVariable.G_Calculation_Remarks = ("Calculation is correct.\nExpected basic death claim = " + basicDeathClaim + "\nActual basic death claim = " + GlobalVariable.G_Basic_Death_Claim
@@ -103,11 +91,8 @@ public class Calculation {
 		def unclmAmount = GlobalVariable.G_Unclaimed_Amount.toString().replaceAll(",", "").toBigDecimal()
 		def interimBonus = GlobalVariable.G_Interim_Bonus.toString().replaceAll(",", "").toBigDecimal()
 		def vestedBonus = GlobalVariable.G_Vested_Bonus.toString().replaceAll(",", "").toBigDecimal()
-		def accidentBenefit = GlobalVariable.G_AB_Rider_Amount.toString().replaceAll(",", "").toBigDecimal()
-		def fibBenefit = GlobalVariable.G_FIB_Rider_Amount.toString().replaceAll(",", "").toBigDecimal()
-		def stepRiderBenefit = GlobalVariable.G_StepUp_Rider_Amount.toString().replaceAll(",", "").toBigDecimal()
 
-		def total = unpaidSB + outstnDeposit + outstnDisBenefit + fundValueInterest + advPremDeposit + unclmAmount + interimBonus + vestedBonus + accidentBenefit + fibBenefit + stepRiderBenefit
+		def total = unpaidSB + outstnDeposit + outstnDisBenefit + fundValueInterest + advPremDeposit + unclmAmount + interimBonus + vestedBonus
 
 		return total
 	}

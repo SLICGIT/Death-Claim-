@@ -35,13 +35,16 @@ WebUI.click(findTestObject('Claim Intimation Shrilife/Page_Dashboard - SHRILIFE/
 WebUI.waitForElementClickable(findTestObject('Claim Booked/Page_Dashboard - SHRILIFE/Booked Claims button'), 20)
  
 WebUI.click(findTestObject('Claim Booked/Page_Dashboard - SHRILIFE/Booked Claims button'))
+
+ WebUI.delay(5)
  
 // If The Policy is assigned to Early Claims
 WebUI.click(findTestObject('Claim Booked/Page_Booked Claims/Early Claims'))
  
 WebUI.delay(3)
  
- 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Claim Booked/Page_Booked Claims/input_checkbox'), 10, FailureHandling.OPTIONAL) 
+
 WebUI.setText(findTestObject('Claim Booked/Page_Booked Claims/input_policy_no'), data['PolicyNumber'])
  
 WebUI.delay(3)

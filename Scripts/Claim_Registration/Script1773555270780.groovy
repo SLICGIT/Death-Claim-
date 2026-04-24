@@ -111,7 +111,7 @@ WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistrat
 
 WebUI.waitForElementClickable(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/txt_policyNo'), 5)
 
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.setText(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/txt_policyNo'), data['PolicyNumber'])
 
@@ -129,6 +129,8 @@ WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistrat
 WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/button_Done'))
 
 WebUI.setText(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Death_Date'), data['DeathDate'])
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Cause_of_Death'))
 
@@ -166,8 +168,8 @@ WebUI.selectOptionByLabel(findTestObject('Claim Portal/Claim Registration/Page_C
 TestObject benefitType = findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Benefit Type')
 
 
-if (WebUI.waitForElementVisible(benefitType, 5, FailureHandling.OPTIONAL)) {
-   WebUI.waitForElementClickable(benefitType, 5, FailureHandling.OPTIONAL)
+if (WebUI.waitForElementVisible(benefitType, 4, FailureHandling.OPTIONAL)) {
+   WebUI.waitForElementClickable(benefitType, 4, FailureHandling.OPTIONAL)
 
    WebUI.selectOptionByLabel(benefitType, data['BenefitType'],
 	   false)

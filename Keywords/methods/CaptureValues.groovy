@@ -73,11 +73,11 @@ public class CaptureValues {
 		GlobalVariable.G_BasicPremium = basic.toString()
 
 		//Calculate Annualized Premium
-//		def modalFactor = ModalFactor.getModalFactor()
-//		def AP = (basic/modalFactor)
-//
-//		GlobalVariable.G_Annualized_Premium = String.format("%.2f", AP)
-//		WebUI.comment(GlobalVariable.G_Annualized_Premium)
+		//		def modalFactor = ModalFactor.getModalFactor()
+		//		def AP = (basic/modalFactor)
+		//
+		//		GlobalVariable.G_Annualized_Premium = String.format("%.2f", AP)
+		//		WebUI.comment(GlobalVariable.G_Annualized_Premium)
 
 		GlobalVariable.G_InstallmentNumber = WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/InstallmentPaid'))
 
@@ -108,21 +108,35 @@ public class CaptureValues {
 
 		WebUI.waitForPageLoad(GlobalVariable.G_PageTimeout)
 
-		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/StepUpRiderPayable'), 5, FailureHandling.OPTIONAL)){
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/StepUpRiderPayable'), 2, FailureHandling.OPTIONAL)){
 
 			GlobalVariable.G_StepUp_Rider_Amount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/StepUpRiderPayable'))
 		}
 
-		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/ABRiderPayable'), 5, FailureHandling.OPTIONAL)){
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/ABRiderPayable'), 2, FailureHandling.OPTIONAL)){
 
 			GlobalVariable.G_AB_Rider_Amount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/ABRiderPayable'))
 		}
 
-		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/FIBRiderPayable'), 5, FailureHandling.OPTIONAL)){
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/FIBRiderPayable'), 2, FailureHandling.OPTIONAL)){
 
 			GlobalVariable.G_FIB_Rider_Amount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/FIBRiderPayable'))
 		}
 
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/EICRiderPayable'), 2, FailureHandling.OPTIONAL)){
+
+			GlobalVariable.G_EIC_Rider_Amount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/EICRiderPayable'))
+		}
+
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/One_percent_of_SA'), 2, FailureHandling.OPTIONAL)){
+
+			GlobalVariable.G_OnePercentOfSA_Amount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/One_percent_of_SA'))
+		}
+
+		if(WebUI.waitForElementPresent(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/One_Time_payment'), 2, FailureHandling.OPTIONAL)){
+
+			GlobalVariable.G_OneTimePaymentAmount= WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data Points/One_Time_payment'))
+		}
 
 		GlobalVariable.G_Outstanding_Premium_Due = WebUI.getText(findTestObject('Object Repository/shrilifeadmission/claimpaymentApproval/Data points/Outstanding Premium Due'))
 

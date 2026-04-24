@@ -159,6 +159,8 @@ public class createExcel {
 				"FIB_Rider_Payable_Amount",
 				"EIC_Rider_Payable_Amount",
 				"StepUP_Rider_Payable_Amount",
+				"One_Percent_Of_SA_Payable_Amount",
+				"One_Time_Payment_Payable_Amount",
 				"Basic_Death_Claim",
 				"Net_Payable_Amount",
 				"Calculation_Status",

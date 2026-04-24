@@ -26,6 +26,7 @@ import methods.createExcel
 import methods.WriteExcel
 import methods.select_Date
 import methods.Calculation
+import eft.getPRF
 
 Map data = FetchExcelData.getData("Death", TestCaseID)
 
@@ -189,6 +190,9 @@ WebUI.setText(findTestObject('shrilifeadmission/claimpaymentApproval/paymentRequ
 WebUI.setText(findTestObject('shrilifeadmission/claimpaymentApproval/paymentRequestform/remarks'), data['PRF_Remarks'])
 
 SS.capture("PRF_Form")
+
+
+getPRF.downloadPRF(data['PolicyNumber'])
 
 JOptionPane.showMessageDialog(null, 'Click OK to continue')
 

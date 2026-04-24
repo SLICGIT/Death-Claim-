@@ -214,6 +214,8 @@ public class WriteExcel {
 			GlobalVariable.G_FIB_Rider_Amount,
 			GlobalVariable.G_EIC_Rider_Amount,
 			GlobalVariable.G_StepUp_Rider_Amount,
+			GlobalVariable.G_OneTimePaymentAmount,
+			GlobalVariable.G_OneTimePaymentAmount,
 			GlobalVariable.G_Basic_Death_Claim,
 			GlobalVariable.G_Net_Payable_Amount,
 			GlobalVariable.G_Calculation_Status,

@@ -26,17 +26,17 @@ if (Executor.toString().equalsIgnoreCase('yes')) {
 
         createExcel.generateReport()
 
-       WebUI.callTestCase(findTestCase('Test Cases/Claim_Intimation'), [('TestCaseID') : TestCaseID])
+        WebUI.callTestCase(findTestCase('Test Cases/Claim_Intimation'), [('TestCaseID') : TestCaseID])
 
         WebUI.callTestCase(findTestCase('Test Cases/Claim_Registration'), [('TestCaseID') : TestCaseID])
 
         WebUI.callTestCase(findTestCase('Test Cases/Claim_Approval'), [('TestCaseID') : TestCaseID])
 
-        WebUI.callTestCase(findTestCase('Test Cases/Death_Claim_Processing'), [('TestCaseID') : TestCaseID])
+		WebUI.callTestCase(findTestCase('Test Cases/Death_Claim_Processing'), [('TestCaseID') : TestCaseID])
 
-//       	WebUI.callTestCase(findTestCase('Test Cases/Login_Page_Shrilife'), [('UserID') : 'S08053'])
+//     	WebUI.callTestCase(findTestCase('Test Cases/Login_Page_Shrilife'), [('UserID') : 'S08053'])
 //		   
-//           WebUI.callTestCase(findTestCase('Death_Claim_Datapoint (for Manual Case)'), [('TestCaseID') : TestCaseID])
+//      WebUI.callTestCase(findTestCase('Death_Claim_Datapoint (for Manual Case)'), [('TestCaseID') : TestCaseID])
 
         WebUI.callTestCase(findTestCase('Test Cases/Death_Claim_Admission'), [('TestCaseID') : TestCaseID])
 
