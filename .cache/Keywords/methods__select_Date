@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2AAEAF4AEDBA8B7AEF18055706EC3526",
+  "keywordClasses": [
+    {
+      "name": "methods.select_Date",
+      "keywordMethods": [
+        {
+          "name": "selectCurrentDate",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -52,10 +52,12 @@ WebUI.delay(3)
 String claimType
  
 // Check Claim Type
-TestObject checkbox = findTestObject('Object Repository/Claim Booked/Page_Booked Claims/input_checkbox')
+TestObject checkbox = findTestObject('Object Repository/Claim Booked/Page_Booked Claims/input_checkbox', [('policyNo') : data['PolicyNumber']])
+
+
  
 if (WebUI.waitForElementVisible(checkbox, 10, FailureHandling.OPTIONAL)) {
-    WebUI.waitForElementClickable(checkbox, 10, FailureHandling.OPTIONAL)
+    //WebUI.waitForElementClickable(checkbox, 10, FailureHandling.OPTIONAL)
  
     claimType = WebUI.getText(findTestObject('Claim Booked/Page_Booked Claims/Early Claims'))
  
@@ -68,10 +70,15 @@ if (WebUI.waitForElementVisible(checkbox, 10, FailureHandling.OPTIONAL)) {
  
     WebUI.click(findTestObject('Object Repository/Claim Booked/Page_Booked Claims/Dedupe Claims'))
 	WebUI.delay(3)
+	
+	WebUI.waitForElementVisible(findTestObject('Object Repository/Claim Booked/Page_Booked Claims/input_checkbox'), 10, FailureHandling.OPTIONAL)
+	
  
     WebUI.setText(findTestObject('Claim Booked/Page_Booked Claims/input_policy_no'), data['PolicyNumber'])
 	WebUI.delay(3)
- 
+		
+		
+	
     if (WebUI.waitForElementVisible(checkbox, 10, FailureHandling.OPTIONAL)) {
         WebUI.waitForElementClickable(checkbox, 10, FailureHandling.OPTIONAL)
  

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "29D434590DF027BD86916370759BD14E",
+  "keywordClasses": [
+    {
+      "name": "methods.CaptureValues",
+      "keywordMethods": [
+        {
+          "name": "getDataPointValues",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

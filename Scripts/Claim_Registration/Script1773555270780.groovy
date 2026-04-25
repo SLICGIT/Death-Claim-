@@ -132,7 +132,7 @@ WebUI.setText(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistr
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Cause_of_Death'))
+WebUI.enhancedClick(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Cause_of_Death'))
 
 WebUI.delay(0.2)
 
@@ -192,6 +192,8 @@ WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistrat
 WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Register Button'))
 
 WebUI.waitForElementClickable(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Button_OK'), GlobalVariable.G_PageTimeout)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Button_OK'))
 
@@ -259,7 +261,7 @@ WebUI.click(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SH
 
 WebUI.waitForPageLoad(GlobalVariable.G_PageTimeout)
 
-WebUI.delay(1)
+WebUI.delay(2.5)
 
 WebUI.selectOptionByLabel(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Cause_of_Death'), data['DeathCause'], false)
 

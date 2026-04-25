@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "3D2D4863632BFFA8C4823756EA9ABE18",
+  "keywordClasses": [
+    {
+      "name": "methods.Calculation",
+      "keywordMethods": [
+        {
+          "name": "verifyDataPoints",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "additions",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "deductions",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

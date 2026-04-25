@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "A13C4254EEA7CFA3DBF70B6F7D423105",
+  "keywordClasses": [
+    {
+      "name": "methods.BrowserPermissions",
+      "keywordMethods": [
+        {
+          "name": "openChromeWithOptions",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "shrilifePermission",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

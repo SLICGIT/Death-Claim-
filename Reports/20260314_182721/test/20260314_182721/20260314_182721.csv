@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Chrome 146.0.7680.76,,,14-03-2026 18:27:32,14-03-2026 18:28:22,50.331s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Login_Page,Chrome 146.0.7680.76,,,14-03-2026 18:27:33,14-03-2026 18:28:00,27.148s,PASSED
+BrowserPermissions.openChromeWithOptions(),Chrome 146.0.7680.76,,,14-03-2026 18:27:33,14-03-2026 18:27:37,3.866s,PASSED
+navigateToUrl(G_ClaimPortalUrl),Chrome 146.0.7680.76,,,14-03-2026 18:27:37,14-03-2026 18:27:39,2.200s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/UserID_Input""), ""K02979"")",Chrome 146.0.7680.76,,,14-03-2026 18:27:39,14-03-2026 18:27:46,6.765s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/Password_Input""), ""sl1c!@#$"")",Chrome 146.0.7680.76,,,14-03-2026 18:27:46,14-03-2026 18:27:47,0.872s,PASSED
+"JOptionPane.showMessageDialog(null, ""Click OK to continue"")",Chrome 146.0.7680.76,,,14-03-2026 18:27:47,14-03-2026 18:27:58,10.767s,PASSED
+"click(findTestObject(""Claim Intimation Shrilife/Login_Page/Login_Button""))",Chrome 146.0.7680.76,,,14-03-2026 18:27:58,14-03-2026 18:28:00,1.923s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Logout_Function,Chrome 146.0.7680.76,,,14-03-2026 18:28:00,14-03-2026 18:28:00,0.711s,PASSED
+closeBrowser(),Chrome 146.0.7680.76,,,14-03-2026 18:28:00,14-03-2026 18:28:00,0.506s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Login_Page,Chrome 146.0.7680.76,,,14-03-2026 18:28:00,14-03-2026 18:28:22,21.124s,PASSED
+BrowserPermissions.openChromeWithOptions(),Chrome 146.0.7680.76,,,14-03-2026 18:28:00,14-03-2026 18:28:02,1.862s,PASSED
+navigateToUrl(G_ClaimPortalUrl),Chrome 146.0.7680.76,,,14-03-2026 18:28:02,14-03-2026 18:28:06,4.120s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/UserID_Input""), ""K02979"")",Chrome 146.0.7680.76,,,14-03-2026 18:28:06,14-03-2026 18:28:07,0.537s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/Password_Input""), ""sl1c!@#$"")",Chrome 146.0.7680.76,,,14-03-2026 18:28:07,14-03-2026 18:28:07,0.452s,PASSED
+"JOptionPane.showMessageDialog(null, ""Click OK to continue"")",Chrome 146.0.7680.76,,,14-03-2026 18:28:07,14-03-2026 18:28:20,12.939s,PASSED
+"click(findTestObject(""Claim Intimation Shrilife/Login_Page/Login_Button""))",Chrome 146.0.7680.76,,,14-03-2026 18:28:20,14-03-2026 18:28:22,1.137s,PASSED

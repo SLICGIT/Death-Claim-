@@ -26,9 +26,9 @@ if (Executor.toString().equalsIgnoreCase('yes')) {
 
         createExcel.generateReport()
 
-        WebUI.callTestCase(findTestCase('Test Cases/Claim_Intimation'), [('TestCaseID') : TestCaseID])
-
-        WebUI.callTestCase(findTestCase('Test Cases/Claim_Registration'), [('TestCaseID') : TestCaseID])
+//        WebUI.callTestCase(findTestCase('Test Cases/Claim_Intimation'), [('TestCaseID') : TestCaseID])
+//
+//        WebUI.callTestCase(findTestCase('Test Cases/Claim_Registration'), [('TestCaseID') : TestCaseID])
 
         WebUI.callTestCase(findTestCase('Test Cases/Claim_Approval'), [('TestCaseID') : TestCaseID])
 

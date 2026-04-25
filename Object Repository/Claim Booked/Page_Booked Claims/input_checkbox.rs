@@ -6,12 +6,12 @@
    <elementGuidId>8d430b8b-d545-4617-9ce7-ebc88ed60997</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.katalonDeHighlight</value>
+         <key>XPATH</key>
+         <value>//div[@tabulator-field='PolicyNo' and text()='${policyNo}'] /ancestor::div[@role='row']/div[@class='tabulator-cell'][1]//input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='checkbox'])[2]</value>
+         <key>CSS</key>
+         <value>input.katalonDeHighlight</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c17a6edd-2dae-4b13-8835-2a4aee037579</webElementGuid>
+      <webElementGuid>18a4521e-143c-4e0c-b7e5-bb748ebd6b3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>2409ed2b-bca2-4bf9-b815-9e79f125a885</webElementGuid>
+      <webElementGuid>e3aefb53-56f4-4e03-ac79-22df9910a2de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value> katalonDeHighlight</value>
-      <webElementGuid>c6823c53-e24d-4d63-86b7-82f47354cddd</webElementGuid>
+      <webElementGuid>61e27148-a03a-4886-9815-0c5083551934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grid-table&quot;)/div[@class=&quot;tabulator-tableholder&quot;]/div[@class=&quot;tabulator-table&quot;]/div[@class=&quot;tabulator-row tabulator-selectable tabulator-row-odd tabulator-tree-level-0 tabulator-selected&quot;]/div[@class=&quot;tabulator-cell&quot;]/input[@class=&quot;katalonDeHighlight&quot;]</value>
-      <webElementGuid>00b8c68c-dfd4-4943-9468-85c3559cfcfe</webElementGuid>
+      <webElementGuid>49cf3760-0592-4a03-83a0-b772b9a80718</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='checkbox'])[2]</value>
-      <webElementGuid>93cc7c50-a7f4-49a8-8c0b-fddbbbc0cade</webElementGuid>
+      <webElementGuid>6bfe3ea3-b4a9-4e3a-a38f-2b1b8c0916d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grid-table']/div[2]/div/div/div/input</value>
-      <webElementGuid>aaf9fcae-8f6a-4280-8a99-a71a642bffae</webElementGuid>
+      <webElementGuid>bbf8a8b7-31d2-4eb2-875a-dec0831b23c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/input</value>
-      <webElementGuid>e08a434c-5ba0-4206-ab05-4eaa9e93606c</webElementGuid>
+      <webElementGuid>3ef77bdf-929e-455f-83a2-a740ffe53ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox']</value>
-      <webElementGuid>25ad4e8a-0ea8-41e9-9dfa-4051e9b837e6</webElementGuid>
+      <webElementGuid>369bce0c-ff02-45ea-91e7-accaabdef817</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

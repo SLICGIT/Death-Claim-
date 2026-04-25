@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Chrome 146.0.7680.76,,,14-03-2026 18:24:30,14-03-2026 18:25:36,1m - 5.578s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Login_Page,Chrome 146.0.7680.76,,,14-03-2026 18:24:31,14-03-2026 18:24:54,23.297s,PASSED
+BrowserPermissions.openChromeWithOptions(),Chrome 146.0.7680.76,,,14-03-2026 18:24:31,14-03-2026 18:24:34,2.405s,PASSED
+navigateToUrl(G_ClaimPortalUrl),Chrome 146.0.7680.76,,,14-03-2026 18:24:34,14-03-2026 18:24:41,6.764s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/UserID_Input""), ""K02979"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:41,14-03-2026 18:24:41,0.463s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/Password_Input""), ""sl1c!@#$"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:41,14-03-2026 18:24:41,0.353s,PASSED
+"JOptionPane.showMessageDialog(null, ""Click OK to continue"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:41,14-03-2026 18:24:52,10.870s,PASSED
+"click(findTestObject(""Claim Intimation Shrilife/Login_Page/Login_Button""))",Chrome 146.0.7680.76,,,14-03-2026 18:24:52,14-03-2026 18:24:54,1.758s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Logout_Function,Chrome 146.0.7680.76,,,14-03-2026 18:24:54,14-03-2026 18:24:56,1.647s,PASSED
+"mouseOver(findTestObject(""Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/USER ICON""))",Chrome 146.0.7680.76,,,14-03-2026 18:24:54,14-03-2026 18:24:54,0.288s,PASSED
+"click(findTestObject(""Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/a_Log Out""))",Chrome 146.0.7680.76,,,14-03-2026 18:24:54,14-03-2026 18:24:56,1.244s,PASSED
+,,,,,,,
+Test Cases/Claim_Portal/Login_Page,Chrome 146.0.7680.76,,,14-03-2026 18:24:56,14-03-2026 18:25:35,39.492s,PASSED
+BrowserPermissions.openChromeWithOptions(),Chrome 146.0.7680.76,,,14-03-2026 18:24:56,14-03-2026 18:24:57,1.377s,PASSED
+navigateToUrl(G_ClaimPortalUrl),Chrome 146.0.7680.76,,,14-03-2026 18:24:57,14-03-2026 18:24:58,1.433s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/UserID_Input""), ""K02979"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:58,14-03-2026 18:24:59,0.260s,PASSED
+"setText(findTestObject(""Claim Intimation Shrilife/Login_Page/Password_Input""), ""sl1c!@#$"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:59,14-03-2026 18:24:59,0.219s,PASSED
+"JOptionPane.showMessageDialog(null, ""Click OK to continue"")",Chrome 146.0.7680.76,,,14-03-2026 18:24:59,14-03-2026 18:25:34,35.188s,PASSED
+"click(findTestObject(""Claim Intimation Shrilife/Login_Page/Login_Button""))",Chrome 146.0.7680.76,,,14-03-2026 18:25:34,14-03-2026 18:25:35,0.983s,PASSED

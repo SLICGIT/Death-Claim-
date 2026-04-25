@@ -1,0 +1,52 @@
+2026-03-14 18:27:31.347 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Satyam.Chouhan\.katalon\packages\KSE-10.4.2\configuration\org.eclipse.osgi\132\0\.cp\resources\logback\logback-execution.xml
+2026-03-14 18:27:31.351 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Satyam.Chouhan\Katalon Studio\Death_Claim_Automation\Include\config\log.properties
+2026-03-14 18:27:32.081 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test
+2026-03-14 18:27:32.233 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Neeraja nalla
+2026-03-14 18:27:32.238 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Death_Claim_Automation
+2026-03-14 18:27:32.247 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Satyam.Chouhan - QKNBK3125.qkcorp.qualitykiosk.com
+2026-03-14 18:27:32.256 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-14 18:27:32.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.31.62
+2026-03-14 18:27:32.276 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2026-03-14 18:27:33.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-14 18:27:33.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Claim_Portal/Login_Page
+2026-03-14 18:27:33.736 DEBUG testcase.Login_Page                      - 1: BrowserPermissions.openChromeWithOptions()
+Mar 14, 2026 6:27:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+2026-03-14 18:27:37.354 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3d9ce8bcdfc31575b6773dbf5c19bd7b
+Mar 14, 2026 6:27:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 146.0.7680.76. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-14 18:27:37.406 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.76
+2026-03-14 18:27:37.410 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-14 18:27:37.413 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-03-14 18:27:37.534 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-14 18:27:37.599 DEBUG testcase.Login_Page                      - 2: navigateToUrl(G_ClaimPortalUrl)
+2026-03-14 18:27:39.806 DEBUG testcase.Login_Page                      - 3: setText(findTestObject("Claim Intimation Shrilife/Login_Page/UserID_Input"), "K02979")
+2026-03-14 18:27:46.579 DEBUG testcase.Login_Page                      - 4: setText(findTestObject("Claim Intimation Shrilife/Login_Page/Password_Input"), "sl1c!@#$")
+2026-03-14 18:27:47.452 DEBUG testcase.Login_Page                      - 5: JOptionPane.showMessageDialog(null, "Click OK to continue")
+2026-03-14 18:27:58.219 DEBUG testcase.Login_Page                      - 6: click(findTestObject("Claim Intimation Shrilife/Login_Page/Login_Button"))
+2026-03-14 18:28:00.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Claim_Portal/Login_Page
+2026-03-14 18:28:00.170 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-14 18:28:00.170 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Claim_Portal/Logout_Function
+2026-03-14 18:28:00.373 DEBUG testcase.Logout_Function                 - 1: closeBrowser()
+2026-03-14 18:28:00.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Claim_Portal/Logout_Function
+2026-03-14 18:28:00.886 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-14 18:28:00.886 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Claim_Portal/Login_Page
+2026-03-14 18:28:00.940 DEBUG testcase.Login_Page                      - 1: BrowserPermissions.openChromeWithOptions()
+Mar 14, 2026 6:28:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+2026-03-14 18:28:02.757 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 405301fb670a563ac2db22e81403f9b0
+Mar 14, 2026 6:28:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 146.0.7680.76. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-03-14 18:28:02.770 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.76
+2026-03-14 18:28:02.774 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-14 18:28:02.785 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-03-14 18:28:02.790 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-14 18:28:02.802 DEBUG testcase.Login_Page                      - 2: navigateToUrl(G_ClaimPortalUrl)
+2026-03-14 18:28:06.922 DEBUG testcase.Login_Page                      - 3: setText(findTestObject("Claim Intimation Shrilife/Login_Page/UserID_Input"), "K02979")
+2026-03-14 18:28:07.461 DEBUG testcase.Login_Page                      - 4: setText(findTestObject("Claim Intimation Shrilife/Login_Page/Password_Input"), "sl1c!@#$")
+2026-03-14 18:28:07.912 DEBUG testcase.Login_Page                      - 5: JOptionPane.showMessageDialog(null, "Click OK to continue")
+2026-03-14 18:28:20.850 DEBUG testcase.Login_Page                      - 6: click(findTestObject("Claim Intimation Shrilife/Login_Page/Login_Button"))
+2026-03-14 18:28:22.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Claim_Portal/Login_Page
+2026-03-14 18:28:22.533 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-14 18:28:22.534 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test
+2026-03-14 18:28:22.535 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

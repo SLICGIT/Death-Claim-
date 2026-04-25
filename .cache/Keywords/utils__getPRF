@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "1C092874322137D7563FF33DA6ABA369",
+  "keywordClasses": [
+    {
+      "name": "eft.getPRF",
+      "keywordMethods": [
+        {
+          "name": "downloadPRF",
+          "parameters": [
+            {
+              "name": "policyNo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

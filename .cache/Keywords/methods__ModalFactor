@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2D7877F9C3CFDFB45368B9260D7B3858",
+  "keywordClasses": [
+    {
+      "name": "methods.ModalFactor",
+      "keywordMethods": [
+        {
+          "name": "getModalFactor",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

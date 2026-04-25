@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "7C38A6254004F25E0A5DBF373AABA2A6",
+  "keywordClasses": [
+    {
+      "name": "methods.ECP_Calculation_test",
+      "keywordMethods": [
+        {
+          "name": "verifyDataPoints",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "additions",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "deductions",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

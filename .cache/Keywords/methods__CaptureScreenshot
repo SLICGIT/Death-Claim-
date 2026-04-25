@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "BF71A89501A0E68DADCB7266A3C75692",
+  "keywordClasses": [
+    {
+      "name": "methods.CaptureScreenshot",
+      "keywordMethods": [
+        {
+          "name": "capture",
+          "parameters": [
+            {
+              "name": "pageName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "screenshotDir",
+          "parameters": [
+            {
+              "name": "tcID",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

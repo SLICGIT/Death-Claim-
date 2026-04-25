@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="65.195" tests="3" failures="0" errors="0">
+   <testsuite name="test" tests="3" failures="0" errors="0" time="65.195" skipped="0" timestamp="2026-03-14T12:54:30.445Z" hostname="Satyam.Chouhan - QKNBK3125.qkcorp.qualitykiosk.com" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Satyam.Chouhan\\Katalon Studio\\Death_Claim_Automation\\Reports\\20260314_182420\\test\\20260314_182420"/>
+         <property name="logFiles" value="C:\\Users\\Satyam.Chouhan\\Katalon Studio\\Death_Claim_Automation\\Reports\\20260314_182420\\test\\20260314_182420\\console0.log, C:\\Users\\Satyam.Chouhan\\Katalon Studio\\Death_Claim_Automation\\Reports\\20260314_182420\\test\\20260314_182420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Satyam.Chouhan - QKNBK3125.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 146.0.7680.76"/>
+         <property name="userFullName" value="Neeraja nalla"/>
+         <property name="hostAddress" value="192.168.31.62"/>
+         <property name="sessionId" value="7c439838408cb31fa038430d0e66b2d0"/>
+         <property name="projectName" value="Death_Claim_Automation"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Claim_Portal/Login_Page" time="23.297" classname="Test Cases/Claim_Portal/Login_Page" status="PASSED">
+         <system-out><![CDATA[14-03-2026T18:24:31 - [TEST_CASE][PASSED] - Test Cases/Claim_Portal/Login_Page: Test Cases/Claim_Portal/Login_Page
+
+14-03-2026T18:24:31 - [TEST_STEP][PASSED] - BrowserPermissions.openChromeWithOptions(): null
+
+14-03-2026T18:24:34 - [TEST_STEP][PASSED] - navigateToUrl(G_ClaimPortalUrl): Navigate to 'https://slicuatr.shriramlife.in/shrilifeportal/Portal/Login' successfully
+
+14-03-2026T18:24:41 - [MESSAGE][PASSED] - Navigate to 'https://slicuatr.shriramlife.in/shrilifeportal/Portal/Login' successfully
+
+14-03-2026T18:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Claim Intimation Shrilife/Login_Page/UserID_Input"), "K02979"): Text 'K02979' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/UserID_Input'
+
+14-03-2026T18:24:41 - [MESSAGE][PASSED] - Text 'K02979' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/UserID_Input'
+
+14-03-2026T18:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Claim Intimation Shrilife/Login_Page/Password_Input"), "sl1c!@#$"): Text 'sl1c!@#$' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/Password_Input'
+
+14-03-2026T18:24:41 - [MESSAGE][PASSED] - Text 'sl1c!@#$' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/Password_Input'
+
+14-03-2026T18:24:41 - [TEST_STEP][PASSED] - JOptionPane.showMessageDialog(null, "Click OK to continue"): null
+
+14-03-2026T18:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Claim Intimation Shrilife/Login_Page/Login_Button")): Object: 'Object Repository/Claim Intimation Shrilife/Login_Page/Login_Button' is clicked on
+
+14-03-2026T18:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Claim Intimation Shrilife/Login_Page/Login_Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Claim_Portal/Logout_Function" time="1.647" classname="Test Cases/Claim_Portal/Logout_Function" status="PASSED">
+         <system-out><![CDATA[14-03-2026T18:24:54 - [TEST_CASE][PASSED] - Test Cases/Claim_Portal/Logout_Function: Test Cases/Claim_Portal/Logout_Function
+
+14-03-2026T18:24:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/USER ICON")): Object: 'Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/USER ICON' is hovered
+
+14-03-2026T18:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/USER ICON' is hovered
+
+14-03-2026T18:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/a_Log Out")): Object: 'Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/a_Log Out' is clicked on
+
+14-03-2026T18:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Claim_Portal/Login_Page" time="39.492" classname="Test Cases/Claim_Portal/Login_Page" status="PASSED">
+         <system-out><![CDATA[14-03-2026T18:24:56 - [TEST_CASE][PASSED] - Test Cases/Claim_Portal/Login_Page: Test Cases/Claim_Portal/Login_Page
+
+14-03-2026T18:24:56 - [TEST_STEP][PASSED] - BrowserPermissions.openChromeWithOptions(): null
+
+14-03-2026T18:24:57 - [TEST_STEP][PASSED] - navigateToUrl(G_ClaimPortalUrl): Navigate to 'https://slicuatr.shriramlife.in/shrilifeportal/Portal/Login' successfully
+
+14-03-2026T18:24:58 - [MESSAGE][PASSED] - Navigate to 'https://slicuatr.shriramlife.in/shrilifeportal/Portal/Login' successfully
+
+14-03-2026T18:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("Claim Intimation Shrilife/Login_Page/UserID_Input"), "K02979"): Text 'K02979' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/UserID_Input'
+
+14-03-2026T18:24:59 - [MESSAGE][PASSED] - Text 'K02979' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/UserID_Input'
+
+14-03-2026T18:24:59 - [TEST_STEP][PASSED] - setText(findTestObject("Claim Intimation Shrilife/Login_Page/Password_Input"), "sl1c!@#$"): Text 'sl1c!@#$' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/Password_Input'
+
+14-03-2026T18:24:59 - [MESSAGE][PASSED] - Text 'sl1c!@#$' is set on object 'Object Repository/Claim Intimation Shrilife/Login_Page/Password_Input'
+
+14-03-2026T18:24:59 - [TEST_STEP][PASSED] - JOptionPane.showMessageDialog(null, "Click OK to continue"): null
+
+14-03-2026T18:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Claim Intimation Shrilife/Login_Page/Login_Button")): Object: 'Object Repository/Claim Intimation Shrilife/Login_Page/Login_Button' is clicked on
+
+14-03-2026T18:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Claim Intimation Shrilife/Login_Page/Login_Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-03-2026T18:24:30 - [TEST_SUITE][PASSED] - test: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

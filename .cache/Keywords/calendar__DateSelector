@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "465B30C21522274491B2DDA3CF62D75E",
+  "keywordClasses": [
+    {
+      "name": "calendar.DateSelector",
+      "keywordMethods": [
+        {
+          "name": "selectTodayDate",
+          "parameters": [
+            {
+              "name": "dateFieldObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

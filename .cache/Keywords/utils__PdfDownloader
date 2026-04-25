@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "1D0CBB9E8CC6B20D6A57287DFB3AE54C",
+  "keywordClasses": [
+    {
+      "name": "utils.PdfDownloader",
+      "keywordMethods": [
+        {
+          "name": "downloadPdfWithSession",
+          "parameters": [
+            {
+              "name": "fileUrl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "savePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

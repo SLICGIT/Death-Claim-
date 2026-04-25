@@ -1,0 +1,62 @@
+{
+  "keywordFileContentHash": "9E2482BE92A89B9BAEA5C10DC65E83EC",
+  "keywordClasses": [
+    {
+      "name": "eft.file",
+      "keywordMethods": [
+        {
+          "name": "getEftFile",
+          "parameters": [
+            {
+              "name": "EFT_Required",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "waitSeconds",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Clicks the required EFT checkbox, detects the newly downloaded Excel file in downloadPath,\r\n\t * and moves it to GlobalVariable.screenshotDir (or any target you set).\r\n\t *\r\n\t * @param EFT_Required visible text or data binding used by your TestObject parameterization\r\n\t * @param waitSeconds max seconds to wait for a new file to appear (default 20)\r\n\t * @return Path of the moved file (as String), or null if not found\r\n\t */"
+        },
+        {
+          "name": "getEftFile",
+          "parameters": [
+            {
+              "name": "EFT_Required",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
