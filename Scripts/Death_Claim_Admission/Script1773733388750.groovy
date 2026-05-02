@@ -85,7 +85,9 @@ if(WebUI.waitForElementPresent(findTestObject('Object Repository/Death Claim Adm
 	SS.capture("StepUP_Rider_details")
 }
 
-SS.capture("Rider_details")
+WebUI.scrollToElement(findTestObject('Object Repository/Death Claim Admission/PolicyRidersAdmission'), 2)
+
+SS.capture("Admission_Rider_details")
 
 WebUI.setText(findTestObject('Object Repository/Death Claim Admission/ClaimProcessorNote'), 'Ok')
 

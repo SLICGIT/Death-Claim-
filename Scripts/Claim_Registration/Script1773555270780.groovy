@@ -117,7 +117,7 @@ WebUI.setText(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistr
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Policy_No_details'))
+WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Policy_No_details', [('policyNo') : data['PolicyNumber']]))
 
 WebUI.click(findTestObject('Claim Portal/Claim Registration/Page_ClaimsRegistration - SHRILIFE/Registration Details'))
 
@@ -255,7 +255,7 @@ WebUI.delay(1)
 //	WebUI.delay(2)
 //}
 
-WebUI.click(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/Policy _Details'))
+WebUI.click(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/Policy _Details', [('policyNo') : data['PolicyNumber']]))
 
 WebUI.click(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/Registration Details'))
 
@@ -273,7 +273,7 @@ WebUI.click(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SH
 
 WebUI.delay(1)
 
-WebUI.waitForElementVisible(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/h2_Claims Approved'), GlobalVariable.G_PageTimeout)
+WebUI.waitForElementVisible(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/h2_Claims Approved'), 30)
 
 SS.capture("Checker Details")
 //WebUI.verifyElementVisible(findTestObject('Claim Portal/Claim Approval/Page_ClaimsApproval - SHRILIFE/h2_Claims Approved'))

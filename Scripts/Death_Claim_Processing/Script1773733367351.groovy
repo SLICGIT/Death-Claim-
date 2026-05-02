@@ -77,7 +77,15 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/Death Claim Processi
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Death Claim Processing/ClaimFormAStatus'), 'Waived', false)
 
+//WebUI.scrollToElement(findTestObject('Object Repository/Death Claim Processing/UnderwritingNotes'), 2)
+//
+//SS.capture("Processing_Screen_Rider_details")
+
 WebUI.setText(findTestObject('Object Repository/Death Claim Processing/UnderwritingNotes'), 'Ok')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Death Claim Processing/PolicyRider'), 2)
+
+SS.capture("Processing_Screen_Rider_details")
 
 WebUI.setText(findTestObject('Object Repository/Death Claim Processing/ClaimProcessorNote'), 'Ok')
 
@@ -131,23 +139,23 @@ if(data['DeathCause'].toString().contains("Accident")) {
 }
  
 
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/AccidentRiderSA'),5 , FailureHandling.OPTIONAL)) {
+if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/AccidentRiderSA'),3 , FailureHandling.OPTIONAL)) {
 
 	GlobalVariable.G_AB_Rider_SA = WebUI.getAttribute(findTestObject('Object Repository/Death Claim Processing/AccidentRiderSA'), 'textContent').trim()
 
 }
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/FIB_Rider_SA'),5 , FailureHandling.OPTIONAL)) {
+if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/FIB_Rider_SA'),3 , FailureHandling.OPTIONAL)) {
 	
 	GlobalVariable.G_FIB_Rider_SA = WebUI.getAttribute(findTestObject('Object Repository/Death Claim Processing/FIB_Rider_SA'), 'textContent').trim()
 
 }
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/EICRiderSA'),5 , FailureHandling.OPTIONAL)) {
+if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/EICRiderSA'),3 , FailureHandling.OPTIONAL)) {
 	
 		GlobalVariable.G_EIC_Rider_SA = WebUI.getAttribute(findTestObject('Object Repository/Death Claim Processing/EICRiderSA'), 'textContent').trim()
 	
 	}
 
-if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/StepUPRiderSA'),5 , FailureHandling.OPTIONAL)) {
+if(WebUI.waitForElementVisible(findTestObject('Object Repository/Death Claim Processing/StepUPRiderSA'),3 , FailureHandling.OPTIONAL)) {
 	
 		GlobalVariable.G_STEPUP_Rider_SA = WebUI.getAttribute(findTestObject('Object Repository/Death Claim Processing/StepUPRiderSA'), 'textContent').trim()
 	

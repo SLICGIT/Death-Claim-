@@ -33,6 +33,8 @@ WebUI.mouseOver(findTestObject('Claim Intimation Shrilife/Page_Dashboard - SHRIL
 WebUI.click(findTestObject('Claim Intimation Shrilife/Page_Dashboard - SHRILIFE/a_Death Claim'))
  
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/Assigned_Claims'), 10)
  
 WebUI.click(findTestObject('Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/Assigned_Claims'))
  

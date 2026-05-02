@@ -7,18 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='grid-table']/div[2]/div/div/div[@tabulator-field=&quot;PolicyNo&quot;]</value>
+         <value>//*[@id='grid-table']//div[@tabulator-field='PolicyNo' and contains(text(),'${policyNo}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value></value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>

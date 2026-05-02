@@ -25,28 +25,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 public class select_Date {
-	
+
 	@Keyword
 	static def selectCurrentDate() {
-		
-	
+
+
 		LocalDate today = LocalDate.now()
-		
+
 		int day = today.getDayOfMonth()
 		String monthName = today.getMonth().getDisplayName(TextStyle.FULL, Locale.ENGLISH)
 		int year = today.getYear()
-		
+
 		String expectedMonthYear = monthName + " " + year
-		
+
 		while (true) {
 			String displayedMonthYear = WebUI.getText(
 					findTestObject('Object Repository/Calendar/calendarTitle')
 					)
-		
+
 			if (displayedMonthYear.equalsIgnoreCase(expectedMonthYear)) {
 				break
 			}
-		
+
 			WebUI.click(findTestObject('Object Repository/Calendar/nextMonthArrow'))
 			WebUI.delay(1)
 		}

@@ -28,6 +28,6 @@ WebUI.setText(findTestObject('Claim Intimation Shrilife/Login_Page/UserID_Input'
 
 WebUI.setText(findTestObject('Claim Intimation Shrilife/Login_Page/Password_Input'), 'sl1c!@#$')
 
-JOptionPane.showMessageDialog(null, 'Click OK to continue')
+//JOptionPane.showMessageDialog(null, 'Click OK to continue')
 
 WebUI.click(findTestObject('Claim Intimation Shrilife/Login_Page/Login_Button'))

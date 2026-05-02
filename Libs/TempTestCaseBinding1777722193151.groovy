@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\QKUSER~1\\AppData\\Local\\Temp\\4\\Katalon\\Test Cases\\End to End\\20260425_130146\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\QKUSER~1\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\End to End\\20260502_171313\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-       TestCaseMain.startTestCaseBinding('Test Cases/End to End', new File("C:\\Users\\QKUSER~1\\AppData\\Local\\Temp\\4\\Katalon\\Test Cases\\End to End\\20260425_130147\\testCaseBinding"))
+       TestCaseMain.startTestCaseBinding('Test Cases/End to End', new File("C:\\Users\\QKUSER~1\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\End to End\\20260502_171314\\testCaseBinding"))
     

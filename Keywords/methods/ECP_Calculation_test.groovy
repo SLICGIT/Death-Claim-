@@ -40,6 +40,13 @@ public class ECP_Calculation_test {
 				def tenTimesAP = GlobalVariable.G_Annualized_Premium.toString().replaceAll(",", "").toBigDecimal() * 10
 				totalPremPaid = GlobalVariable.G_BasicPremium.toString().replaceAll(",", "").toBigDecimal() * GlobalVariable.G_InstallmentNumber.toString().replaceAll(",", "").toBigDecimal()
 				age = GlobalVariable.G_Age.toString().toInteger()
+
+				if(age >= 50) {
+					tenTimesAP = GlobalVariable.G_Annualized_Premium.toString().replaceAll(",", "").toBigDecimal() * 7
+				}
+
+
+
 				WebUI.comment("Age : " + age)
 
 				if (data['DeathCause'].toString().contains('Suicide')) {

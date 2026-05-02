@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='grid-table']/div[2]/div/div/div[@tabulator-field=&quot;PolicyNo&quot;]</value>
+         <value>//*[@id='grid-table']//div[@tabulator-field='PolicyNo' and contains(text(),'${policyNo}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0ba52cf4-f4d6-4d96-b11a-6f20f5ac600b</webElementGuid>
+      <webElementGuid>e5ec6642-c80a-47f3-8361-c503549494b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tabulator-cell</value>
-      <webElementGuid>c4152e40-523c-4652-ba06-abc084ef6b12</webElementGuid>
+      <webElementGuid>5887d977-458e-4e9f-9810-af383dde2eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>4844e416-4fc2-425f-b476-b2e354a6c69a</webElementGuid>
+      <webElementGuid>3bde02a9-8da7-407b-aa88-5fd10a304a49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>tabulator-field</name>
       <type>Main</type>
       <value>PolicyNo</value>
-      <webElementGuid>60e73410-4cab-4afa-a40b-b9e5e41eb38c</webElementGuid>
+      <webElementGuid>b3413bc6-c013-41c1-a9c7-d5cce677b2ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NN012101138858</value>
-      <webElementGuid>d9cd00cd-c695-4407-9c83-4ee71d4a033d</webElementGuid>
+      <webElementGuid>bc36ef63-6fbf-4e17-adb5-18b6fb9c28f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grid-table&quot;)/div[@class=&quot;tabulator-tableholder&quot;]/div[@class=&quot;tabulator-table&quot;]/div[@class=&quot;tabulator-row tabulator-tree-level-0 tabulator-row-odd&quot;]/div[@class=&quot;tabulator-cell&quot;]</value>
-      <webElementGuid>1f88b3f8-cb2b-444a-8daf-2c520cc16bb1</webElementGuid>
+      <webElementGuid>88aee8df-592d-4507-b1ae-faa0af0a700a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grid-table']/div[2]/div/div/div</value>
-      <webElementGuid>9a9932fb-c3bc-499a-a4a6-3fe8517f9e72</webElementGuid>
+      <webElementGuid>b93ba67a-7a52-47e0-a120-f65133a0fa89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subref Agent Channel'])[1]/following::div[5]</value>
-      <webElementGuid>33c7d2e1-6c30-437b-a864-3bc9b850d757</webElementGuid>
+      <webElementGuid>208b2c38-c247-4490-803d-1b02d983c650</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AgtLoc Channel'])[1]/following::div[9]</value>
-      <webElementGuid>50b11fea-40eb-4bf7-a430-d380f2f2e05f</webElementGuid>
+      <webElementGuid>2e511ec6-e1d7-4278-a386-b1aeb9bbcc06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RAMESH M'])[1]/preceding::div[1]</value>
-      <webElementGuid>816d8c12-e2ac-4b7c-a71a-b018372b45f0</webElementGuid>
+      <webElementGuid>7704d915-288b-4aa5-963c-8592cb140963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accident - Road Traffic Accident'])[1]/preceding::div[4]</value>
-      <webElementGuid>2145129d-9657-494a-8077-d9b640611a7c</webElementGuid>
+      <webElementGuid>0c433c0e-7a02-45d6-8f90-c3de412b6d64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='NN012101138858']/parent::*</value>
-      <webElementGuid>45c23ee6-30a3-47ec-82aa-bc18d0eac62a</webElementGuid>
+      <webElementGuid>dc7b2067-0929-47bd-ac02-8c4890ef5f36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div[2]/div/div/div</value>
-      <webElementGuid>47e14c32-78ec-4085-ba02-cd9828813ea8</webElementGuid>
+      <webElementGuid>8682dc2f-b4e5-4dd4-9eb4-f7f1d57e8711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'NN012101138858' or . = 'NN012101138858')]</value>
-      <webElementGuid>de15455f-e7bb-437c-ace4-bfb02eb232ef</webElementGuid>
+      <webElementGuid>603a529b-8c2f-48b5-923d-45fd33bd398e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
