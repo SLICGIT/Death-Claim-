@@ -161,27 +161,27 @@ WebUI.waitForPageLoad(GlobalVariable.G_PageTimeout)
 
 //***********************************Document Upload****************************************
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/DeathCertificate'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/DeathCertificate'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/ClaimFormA'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/ClaimFormA'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeAadhaarID'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeAadhaarID'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeBankPassbook'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeBankPassbook'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/PolicyDocument'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/PolicyDocument'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/FIRCopy'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/FIRCopy'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/PostMortemReport'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/PostMortemReport'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/HospitalRecords'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/HospitalRecords'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/Signature'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/Signature'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/ClaimFormB'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/ClaimFormB'), data['Documents'])
 
-WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeNonAadharID'), 'E:\\Katalon\\DummyDocument.png')
+WebUI.uploadFile(findTestObject('Object Repository/Claim Intimation/DocumentUpload/NomineeNonAadharID'), data['Documents'])
 
 WebUI.enhancedClick(findTestObject('Object Repository/Claim Intimation/DocumentUpload/ProceedBtn'))
 

@@ -34,9 +34,7 @@ if (Executor.toString().equalsIgnoreCase('yes')) {
 
 		WebUI.callTestCase(findTestCase('Test Cases/Death_Claim_Processing'), [('TestCaseID') : TestCaseID])
 
-//     	WebUI.callTestCase(findTestCase('Test Cases/Login_Page_Shrilife'), [('UserID') : 'S08053'])
-//		   
-//      WebUI.callTestCase(findTestCase('Death_Claim_Datapoint (for Manual Case)'), [('TestCaseID') : TestCaseID])
+//     	WebUI.callTestCase(findTestCase('Test Cases/Login_Page_Shrilife'), [('UserID') : 'S08053'])		   
 
         WebUI.callTestCase(findTestCase('Test Cases/Death_Claim_Admission'), [('TestCaseID') : TestCaseID])
 

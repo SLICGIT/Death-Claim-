@@ -62,9 +62,11 @@ WebUI.waitForElementVisible(findTestObject('Claim Intimation Shrilife/Page_Death
 
 WebUI.click(findTestObject('Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/Open Claims'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/grid_table'), 15)
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Claim Intimation Shrilife/Page_Death Claims - SHRILIFE/input_policy_no'), data['PolicyNumber'])
 

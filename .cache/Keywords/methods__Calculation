@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "3D2D4863632BFFA8C4823756EA9ABE18",
+  "keywordFileContentHash": "6105C1B8180DEDE4890A52EFC12F75AC",
   "keywordClasses": [
     {
       "name": "methods.Calculation",
@@ -7,6 +7,64 @@
         {
           "name": "verifyDataPoints",
           "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "matchValues",
+          "parameters": [
+            {
+              "name": "basicDeathClaim",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "abRiderPayable",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "fibRiderPayable",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "stepRiderPayable",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         },
         {

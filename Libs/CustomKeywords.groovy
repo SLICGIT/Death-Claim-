@@ -123,6 +123,19 @@ def static "methods.Calculation.verifyDataPoints"() {
 }
 
 
+def static "methods.Calculation.matchValues"(
+    	Object basicDeathClaim	
+     , 	Object abRiderPayable	
+     , 	Object fibRiderPayable	
+     , 	Object stepRiderPayable	) {
+    (new methods.Calculation()).matchValues(
+        	basicDeathClaim
+         , 	abRiderPayable
+         , 	fibRiderPayable
+         , 	stepRiderPayable)
+}
+
+
 def static "methods.Calculation.additions"() {
     (new methods.Calculation()).additions()
 }
